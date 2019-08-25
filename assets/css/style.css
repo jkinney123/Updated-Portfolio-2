@@ -252,6 +252,16 @@ body {
   overflow: hidden;
   bottom: 905;
 }
+
+.work6 {
+  position: absolute;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: hidden;
+  bottom: 905;
+  right: 630;
+}
   .work:nth-child(even) {
     margin-right: 40px;
   }
@@ -262,6 +272,16 @@ body {
     opacity: 0.8;
     padding: 10;
     height: 190px;
+  }
+
+  .react {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+    padding: 10;
+    height: 190px;
+    right: 630;
+
   }
 
   .movie-trivia {
