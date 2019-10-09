@@ -54,41 +54,38 @@ $(document).ready(function(){
       <h1 class="head-1 tracking-out-contract">Hello!</h1>
       
       <h1 class="greetings tracking-in-contract" >About me</h1>
-
-      <br>
       
-
-
-      <p>My name is Joe and I am twenty years old. I live in Burnsville, Minnesota. I graduated in 2016 from the
-        Academy of Holy Angels located in Richfield, Minnesota. I am currently attending Normandale Community College
-        and am planning on pursuing my education at the University of Minnesota.</p>
+      <p>I am currently a student and web developer who aspires to create useful and innovative technology. I am originally from Burnsville, Minnesota graduated in 2016 from the
+        Academy of Holy Angels located in Richfield, Minnesota. I obtained a Full-Stack developer degree from the University of Minnesota Coding Bootcamp Program.
+         I am currently working to get an IT degree from UMN Continuing Education. </p>
 
       <p>Growing up I loved to play competetive sports like hockey and lacrosse. Some of my favorite hobbies include
         swimming, making music, gaming, and cooking. I love spending time with two golden retrievers, bear and daisy. I
-        have recently become interested in learning how to code.</p>
-
-      <p>I am very grateful that I found the UMN coding bootcamp because of the opportunities they provide. Although
-        seriously challenging, completeing this course will be a big accomplishment and i am excited for what is to
-        come. I hope to one day learn how to develop games to become an indie developer.</p>
+        have recently become interested in learning React speifically given the recent attention its been given.   </p>
 
     </section>
 
-  </div>
-<div class="contactLinks">
+    <div class="contactLinks">
 
-    <h2>Cell: 952-688-2872</h2>
-    <h2>Email: joekinney53@gmail.com</h2>
-    
-    <a href="https://github.com/jkinney123" class="github">Github</a>
-    <a href="https://www.linkedin.com/in/joseph-kinney-b40660181/" class="github">LinkedIn</a>
-    <a href="assets/pdf/Resume_1.pdf" type="application/pdf" class="github">Resume</a>
-</div>
+        <h2>Cell: 952-688-2872 || Email: joekinney53@gmail.com</h2>
+        
+        <a href="https://github.com/jkinney123" class="github">Github</a>
+        <a href="https://www.linkedin.com/in/joseph-kinney-b40660181/" class="github">LinkedIn</a>
+        <a href="assets/pdf/Resume_1.pdf" type="application/pdf" class="github">Resume</a>
+    </div>
+
+
+
+  </div>
   
 
 
   <div id="portfolio" class="container">
+
     <section class="port-section">
-      <h1 class="head-2" >Portfolio</h1>
+
+      <h1 class="Portfolio-Header">Portfolio</h1>
+      
 
       <div class="work1">
         <img src="assets/images/food-img.jpg.jpg" class="nutrition" alt="Nutritionix">
@@ -100,19 +97,21 @@ $(document).ready(function(){
       <div class="work2">
         <img src="assets/images/movie-img.jpg.jpg" class="movie-trivia" alt="movie trivia">
         <a href="https://jkinney123.github.io/TriviaGame/" class="links2">Movie Trivia</a>
+        <a href="https://github.com/jkinney123/TriviaGame.git" class="links2">Git Repo</a>
 
   
         
       </div>
       <div class="work3">
         <img src="assets/images/security-app.jpg" class="security-app" alt="security-app">
-        <a href="https://jkinney123.github.io/Project-2/" class="links3">Home Security App</a>
+        <a href="https://g3-home-security.herokuapp.com/" class="links3">Home Security App</a>
         <a href="https://github.com/jkinney123/Project-2.git" class="links3">Git Repo</a>
       
     </div>
       <div class="work4">
         <img src="assets/images/crystal-img.jpg.jpg" class="crystalGame" alt="Trivia Game">
         <a href="https://jkinney123.github.io/unit-4-game/" class="links4">Crystal Collector Game</a>
+        <a href="https://github.com/jkinney123/unit-4-game.git" class="links4">Git Repo</a>
         
         <br>
         </div>
@@ -144,7 +143,7 @@ $(document).ready(function(){
     <section class="contact-section">
       <h1 class="head-3">Contact</h1>
 
-      <form id="contact-form">
+      <form method="post" action="mailto:joekinney53@gmail.com" id="contact-form">
         <ul>
           <li>
             <label for="name">Name</label>
@@ -159,7 +158,8 @@ $(document).ready(function(){
             <textarea id="message" name="message" required="required"></textarea>
           </li>
         </ul>
-        <input type="submit">
+            <input type="submit" value="Send Email" /> 
+            </form>
       </form>
 
     </section>
