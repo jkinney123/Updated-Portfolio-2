@@ -5,40 +5,40 @@
   <title>About | Joe Kinney</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
- 
- <script >
- $(document).ready(function(){
-  
-  $("a").on('click', function(event) {   
-    if (this.hash !== "") {    
-      event.preventDefault();    
-      var hash = this.hash;   
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){     
-        window.location.hash = hash;
+
+  <script>
+    $(document).ready(function () {
+
+      $("a").on('click', function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+            window.location.hash = hash;
+          });
+        }
       });
-    } 
-     });
-    $("#index").click(function() {
+      $("#index").click(function () {
         $('.transform').toggleClass('transform-active');
 
-    });
-    $("#portfolio").click(function() {
+      });
+      $("#portfolio").click(function () {
         $('.transform').toggleClass('transform-active');
 
-    });
+      });
 
-    $("#contact").click(function() {
+      $("#contact").click(function () {
         $('.transform').toggleClass('transform-active');
 
+      });
+
+
+
     });
 
-    
-
-    });
-
-</script>
+  </script>
 </head>
 
 <body class="bck-image">
@@ -57,34 +57,37 @@
   <div id="index" class="container">
     <section class="main-section">
       <h1 class="head-1 tracking-out-contract">Hello!</h1>
-      
-      <h1 class="greetings tracking-in-contract" >About me</h1>
-      
-      <p>I am currently a student and web developer who aspires to create useful and innovative technology. I am from Burnsville, Minnesota and graduated in 2016 from the
-        Academy of Holy Angels in Richfield, Minnesota. In fall of 2019 I recieved my Full-Stack developer degree from the University of Minnesota Coding Bootcamp Program.
-         I am currently working to get an IT degree from UMN Continuing Education. </p>
 
-      <p>Growing up I played competetive sports like hockey and lacrosse. These sports taught me how to work with a team. Some of my favorite hobbies include
-         music, gaming, and cooking.  
-        
-        I have recently been focusing on React because of its speed and ability to make smooth running applications. 
-       </p>
+      <h1 class="greetings tracking-in-contract">About me</h1>
+
+      <p>I am currently a student and web developer who aspires to create useful and innovative technology. I am from
+        Burnsville, Minnesota and graduated in 2016 from the
+        Academy of Holy Angels in Richfield, Minnesota. In fall of 2019 I recieved my Full-Stack developer degree from
+        the University of Minnesota Coding Bootcamp Program.
+        I am currently working to get an IT degree from UMN Continuing Education. </p>
+
+      <p>Growing up I played competetive sports like hockey and lacrosse. These sports taught me how to work with a
+        team. Some of my favorite hobbies include
+        music, gaming, and cooking.
+
+        I have recently been focusing on React because of its speed and ability to make smooth running applications.
+      </p>
 
     </section>
 
     <div class="contactLinks">
 
-        <h2>Cell: 952-688-2872 || Email: joekinney53@gmail.com</h2>
-        
-        <a href="https://github.com/jkinney123" class="github">Github</a>
-        <a href="https://www.linkedin.com/in/joseph-kinney-b40660181/" class="github">LinkedIn</a>
-        <a href="assets/pdf/Resume_1.pdf" type="application/pdf" class="github">Resume</a>
+      <h2>Cell: 952-688-2872 || Email: joekinney53@gmail.com</h2>
+
+      <a href="https://github.com/jkinney123" class="github">Github</a>
+      <a href="https://www.linkedin.com/in/joseph-kinney-b40660181/" class="github">LinkedIn</a>
+      <a href="assets/pdf/resume-final123.pdf" type="application/pdf" class="github">Resume</a>
     </div>
 
 
 
   </div>
-  
+
 
 
   <div id="portfolio" class="container">
@@ -92,55 +95,55 @@
     <section class="port-section">
 
       <h1 class="Portfolio-Header">Portfolio</h1>
-      
+
 
       <div class="work1">
         <img src="assets/images/food-img.jpg.jpg" class="nutrition" alt="Nutritionix">
         <a href="https://andymuller.github.io/group-project/" class="links1">Nutritionix</a>
         <a href="https://github.com/jkinney123/group-prokect.git" class="links1">Git Repo</a>
 
-      
-    </div>
+
+      </div>
       <div class="work2">
         <img src="assets/images/movie-img.jpg.jpg" class="movie-trivia" alt="movie trivia">
         <a href="https://jkinney123.github.io/TriviaGame/" class="links2">Movie Trivia</a>
         <a href="https://github.com/jkinney123/TriviaGame.git" class="links2">Git Repo</a>
 
-  
-        
+
+
       </div>
       <div class="work3">
         <img src="assets/images/security-app.jpg" class="security-app" alt="security-app">
         <a href="https://g3-home-security.herokuapp.com/" class="links3">Home Security App</a>
         <a href="https://github.com/jkinney123/Project-2.git" class="links3">Git Repo</a>
-      
-    </div>
+
+      </div>
       <div class="work4">
         <img src="assets/images/crystal-img.jpg.jpg" class="crystalGame" alt="Trivia Game">
         <a href="https://jkinney123.github.io/unit-4-game/" class="links4">Crystal Collector Game</a>
         <a href="https://github.com/jkinney123/unit-4-game.git" class="links4">Git Repo</a>
-        
-        <br>
-        </div>
 
-     <div class="work5">
-          <img src="assets/images/Bamazon.jpg" class="Bamazon" alt="Bamazon">
-          <a href="https://jkinney123.github.io/Bamazon/" class="links5">Bamazon</a>
-          <a href="https://github.com/jkinney123/Bamazon.git" class="links5">Git Repo</a>
-          
-          <br>
-          </div>
+        <br>
+      </div>
+
+      <div class="work5">
+        <img src="assets/images/Bamazon.jpg" class="Bamazon" alt="Bamazon">
+        <a href="https://jkinney123.github.io/Bamazon/" class="links5">Bamazon</a>
+        <a href="https://github.com/jkinney123/Bamazon.git" class="links5">Git Repo</a>
+
+        <br>
+      </div>
       <div class="work6">
-            <img src="assets/images/simpsons.jpg" class="react" alt="react">
-            <a href="http://jkinney123.github.io/Clicky-Game/" class="links5">React Game</a>
-            <a href="https://github.com/jkinney123/Clicky-Game.git" class="links5">Git Repo</a>
-            
-            <br>
-            </div>
+        <img src="assets/images/simpsons.jpg" class="react" alt="react">
+        <a href="http://jkinney123.github.io/Clicky-Game/" class="links5">React Game</a>
+        <a href="https://github.com/jkinney123/Clicky-Game.git" class="links5">Git Repo</a>
+
+        <br>
+      </div>
 
     </section>
 
-   
+
 
 
 
@@ -151,32 +154,33 @@
       <h1 class="head-3">Contact</h1>
 
       <form method="POST" data-netlify="true" id="contact-form">
-          <div class="row">
-              <div class="col-sm-12 form-group">
-                  <label for="message"> Message:</label>
-                  <textarea class="form-control" type="textarea" id="message" name="message" maxlength="6000" rows="7"></textarea>
-              </div>
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <label for="message"> Message:</label>
+            <textarea class="form-control" type="textarea" id="message" name="message" maxlength="6000"
+              rows="7"></textarea>
           </div>
-          <div class="row">
-              <div class="col-sm-6 form-group">
-                  <label for="name"> Your Name:</label>
-                  <input type="text" class="form-control" id="name" name="name" required>
-              </div>
-              <div class="col-sm-6 form-group">
-                  <label for="email"> Email:</label>
-                  <input type="email" class="form-control" id="email" name="email" required>
-              </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <label for="name"> Your Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
           </div>
           <div class="col-sm-6 form-group">
-            <div data-netlify-recaptcha="true"></div>
+            <label for="email"> Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
           </div>
-          <div class="row">
-              <div class="col-sm-12 form-group">
-                  <button type="submit" class="btn btn-lg btn-default pull-right" >Send &rarr;</button>
-              </div>
+        </div>
+        <div class="col-sm-6 form-group">
+          <div data-netlify-recaptcha="true"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <button type="submit" class="btn btn-lg btn-default pull-right">Send &rarr;</button>
           </div>
+        </div>
       </form>
-      
+
 
     </section>
 
