@@ -550,7 +550,7 @@ body {
       width: 100%;
       bottom: .01;
       padding: 1px;
-      margin-bottom: 0;
+      margin-top: 40px;
       font-weight: 300;
       line-height: 30px;
       color: black;
@@ -561,6 +561,7 @@ body {
 
   .cellEmail {
     font-size: 30px;
+    margin: 10;
   }
 
     .contactLinks {
@@ -595,6 +596,10 @@ body {
           margin-bottom: 20px;
 
       }
+      .cellEmail {
+        font-size: 35px;
+        margin: 10;
+    }
      
 
     
@@ -620,4 +625,183 @@ body {
         
       }
      
+      p {
+        margin-bottom: 20px;
+        font-size: 35px;
+        line-height: 2;
+    }
+
+    .port-section {
+      float: left;
+      width: 100%;
+      /* max-width: 1200px; */
+      padding: 30px;
+      margin: 0 0 40px;
+      background: #efefef;
+      border: 2px solid #000000;
+      height: 1000px;
+  }
+
+  
+  .nutrition .security-app .wine .crystalGame .bamazon .react{
+    width: 100%;
+    
+    height: 75%;
+}
+
+.links1 {
+  position: relative;
+  width: 100%;
+  bottom: .01;
+  padding: 1px;
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 40;
+  line-height: 30px;
+  color: #0c0c0c;
+  text-align: center;
+  /* background: #000000; */
+  border-bottom: 0;
+  left: 20px;
+  bottom: 7;
+}
+
+.links2 {
+  position: relative;
+  width: 100%;
+  bottom: .01;
+  padding: 1px;
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 40;
+  line-height: 30px;
+  color: #0c0c0c;
+  text-align: center;
+  /* background: #000000; */
+  border-bottom: 0;
+  left: 20px;
+  bottom: 7;
+}
+
+.links3 {
+  position: relative;
+  width: 100%;
+  bottom: .01;
+  padding: 1px;
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 40;
+  line-height: 30px;
+  color: #0c0c0c;
+  text-align: center;
+  /* background: #000000; */
+  border-bottom: 0;
+  left: 20px;
+  bottom: 7;
+}
+
+.links4 {
+  position: relative;
+  width: 100%;
+  bottom: .01;
+  padding: 1px;
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 40;
+  line-height: 30px;
+  color: #0c0c0c;
+  text-align: center;
+  /* background: #000000; */
+  border-bottom: 0;
+  left: 20px;
+  bottom: 7;
+}
+
+.links5 {
+  position: relative;
+  width: 100%;
+  bottom: .01;
+  padding: 1px;
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 40;
+  line-height: 30px;
+  color: #0c0c0c;
+  text-align: center;
+  /* background: #000000; */
+  border-bottom: 0;
+  left: 20px;
+  bottom: 7;
+}
+
+.links6 {
+  position: relative;
+  width: 100%;
+  bottom: .01;
+  padding: 1px;
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 40;
+  line-height: 30px;
+  color: #0c0c0c;
+  text-align: center;
+  /* background: #000000; */
+  border-bottom: 0;
+  left: 20px;
+  bottom: 7;
+}
+
+.work1 {
+  position: relative;
+  float: left;
+  width: 350;
+  height: 350;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.work2 {
+  position: relative;
+  float: left;
+  width: 350;
+  height: 350;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.work3 {
+  position: relative;
+  float: left;
+  width: 350;
+  height: 350;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.work4 {
+  position: relative;
+  float: left;
+  width: 350;
+  height: 350;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.work5 {
+  position: relative;
+  float: left;
+  width: 350;
+  height: 350;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.work6 {
+  position: relative;
+  float: left;
+  width: 350;
+  height: 350;
+  margin: 20px;
+  overflow: hidden;
+}
   }
