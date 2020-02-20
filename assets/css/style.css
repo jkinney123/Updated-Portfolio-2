@@ -197,7 +197,7 @@ body {
     margin: 0 0 40px;
     background: #efefef;
     border: 2px solid #000000;
-    height: 600;
+    height: 660px;
 }
 
   .contact-section {
@@ -213,57 +213,53 @@ body {
   }
   
   .work1 {
-    position: absolute;
+    position: relative;
     float: left;
     width: 274px;
-    margin: 20px 0 25px;
+    margin: 20px 10 25px;
     overflow: hidden;
   }
 
   .work2 {
-    position: absolute;
+    position: relative;
     float: left;
     width: 274px;
-    margin: 20px 0 25px;
+    margin: 20px 10px 25px;
     overflow: hidden;
-    left: 600;
 }
-  .work3 {
-    position: absolute;
-    float: left;
-    width: 274px;
-    margin: 20px 0 25px;
-    overflow: hidden;
-    left: 900px;
+.work3 {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 10 25px;
+  overflow: hidden;
   }
 
   .work4 {
-    position: absolute;
+    position: relative;
     float: left;
     width: 274px;
-    margin: 20px 0 25px;
+    margin: 20px 10 25px;
     overflow: hidden;
-    right: 325;
-    bottom: 930;
+ 
+    
 }
   
 .work5 {
-  position: absolute;
+  position: relative;
   float: left;
   width: 274px;
-  margin: 20px 0 25px;
+  margin: 20px 10 25px;
   overflow: hidden;
-  bottom: 930;
 }
 
 .work6 {
-  position: absolute;
+  position: relative;
   float: left;
   width: 274px;
   margin: 20px 0 25px;
   overflow: hidden;
-  bottom: 930;
-  right: 630;
+ 
 }
   .work:nth-child(even) {
     margin-right: 40px;
@@ -534,9 +530,9 @@ body {
   
   @media screen and (max-width: 980px) {
     .main-section {
-        width: 70%;
+        width: 100%;
         margin-left: 30px;
-        margin-bottom: 350px;
+        margin-bottom: 20px;
     }  
     #masthead {
         width: 100%;
@@ -544,6 +540,7 @@ body {
 
     nav {
         padding-right: 25px;
+        font-size: 25px;
     }
 
     .auth-image {
@@ -567,9 +564,37 @@ body {
           width: 100%;
           margin-right: 20px;
           margin-left: 20px;
-          margin-bottom: 350px;
+          margin-bottom: 20px;
 
       }
+      .gitemailLinked {
+        width: 100%;
+        bottom: .01;
+        padding: 1px;
+        margin-bottom: 0;
+        font-weight: 300;
+        line-height: 30px;
+        color: black;
+        text-align: center;
+        font-size: 40px;
+        border-bottom: 0;
+    }
+
+    .cellEmail {
+      font-size: 30px;
+    }
+
+    .contactLinks {
+      float: left;
+      width: 100%;
+      /* max-width: 1200px; */
+      padding: 10px;
+      margin: 0 0 40px;
+      background: #efefef;
+      border: 2px solid #000000;
+      text-align: center;
+      height: 200;
+  }
   }
 
 
@@ -591,4 +616,34 @@ body {
           text-align: center;
         
       }
+      .gitemailLinked {
+        width: 100%;
+        bottom: .01;
+        padding: 1px;
+        margin-top: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        color: black;
+        text-align: center;
+        font-size: 40px;
+        border-bottom: 0;
+    }
+
+    .cellEmail {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    .contactLinks {
+      float: left;
+      width: 100%;
+      /* max-width: 1200px; */
+      padding: 10px;
+      margin: 0 0 40px;
+      background: #efefef;
+      border: 2px solid #000000;
+      text-align: center;
+      height: 200;
+  
+    }
   }
