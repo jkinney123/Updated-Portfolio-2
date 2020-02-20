@@ -315,7 +315,7 @@ body {
     height: 190px;
   }
 
-  .github {
+  .gitemailLinked {
   
     width: 100%;
     bottom: .01;
@@ -546,6 +546,34 @@ body {
     .auth-image {
         margin-bottom: 10px;
     }
+    .gitemailLinked {
+      width: 100%;
+      bottom: .01;
+      padding: 1px;
+      margin-bottom: 0;
+      font-weight: 300;
+      line-height: 30px;
+      color: black;
+      text-align: center;
+      font-size: 40px;
+      border-bottom: 0;
+  }
+
+  .cellEmail {
+    font-size: 30px;
+  }
+
+    .contactLinks {
+      float: left;
+      width: 100%;
+      /* max-width: 1200px; */
+      padding: 10px;
+      margin: 0 0 40px;
+      background: #efefef;
+      border: 2px solid #000000;
+      text-align: center;
+      height: 200;
+  }
 }
 
 
@@ -567,34 +595,9 @@ body {
           margin-bottom: 20px;
 
       }
-      .gitemailLinked {
-        width: 100%;
-        bottom: .01;
-        padding: 1px;
-        margin-bottom: 0;
-        font-weight: 300;
-        line-height: 30px;
-        color: black;
-        text-align: center;
-        font-size: 40px;
-        border-bottom: 0;
-    }
+     
 
-    .cellEmail {
-      font-size: 30px;
-    }
-
-    .contactLinks {
-      float: left;
-      width: 100%;
-      /* max-width: 1200px; */
-      padding: 10px;
-      margin: 0 0 40px;
-      background: #efefef;
-      border: 2px solid #000000;
-      text-align: center;
-      height: 200;
-  }
+    
   }
 
 
@@ -616,34 +619,5 @@ body {
           text-align: center;
         
       }
-      .gitemailLinked {
-        width: 100%;
-        bottom: .01;
-        padding: 1px;
-        margin-top: 20px;
-        font-weight: 300;
-        line-height: 30px;
-        color: black;
-        text-align: center;
-        font-size: 40px;
-        border-bottom: 0;
-    }
-
-    .cellEmail {
-      font-size: 30px;
-      margin-bottom: 15px;
-    }
-
-    .contactLinks {
-      float: left;
-      width: 100%;
-      /* max-width: 1200px; */
-      padding: 10px;
-      margin: 0 0 40px;
-      background: #efefef;
-      border: 2px solid #000000;
-      text-align: center;
-      height: 200;
-  
-    }
+     
   }
